@@ -1,0 +1,26 @@
+build/
+build-*/
+*.exe
+tools/.venv/
+tools/frames/
+tools/frames2/
+tools/clips/
+tools/yt/
+tools/*.out
+tools/*.txt.bak
+tools/nvof_probe/*.exe
+*.bmp
+*.png
+*.webm
+dist/
+# private / research (not published)
+tools/testpc.env
+tools/__pycache__/
+tools/exp*.py
+tools/trace*.txt
+tools/fetch*.txt
+tools/nvof_probe/
+tools/sethz.cpp
+tools/fgsim.py
+tools/scipy_free_dilate.py
+!docs/*.png
